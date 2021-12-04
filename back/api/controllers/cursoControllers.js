@@ -49,7 +49,7 @@ function cursoEditar(req, res) {
     let dados = req.body;
     const sql = "update  curso set cur_descricao = '" + dados.cur_descricao +
         "', cur_duracao = '" + dados.cur_duracao +
-        "', cur_aera = '" + dados.cur_area +
+        "', cur_area = '" + dados.cur_area +
         "', cur_periodo = '" + dados.cur_periodo +
         "', fac_codigo = '" + dados.fac_codigo +
         "' where cur_codigo = '" + dados.cur_codigo + "'"
